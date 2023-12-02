@@ -1,9 +1,350 @@
-<html>
-
-<body>
-  <h1>arya honraopatil</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Jayesh Lalwani">
+    <meta name="description" content="My name is Jayesh Lalwani. I'm an experienced software engineer based in Boston, MA. I enjoy turning complex problems into simple, modular code components.">
+    <meta name="keywords" content="software engineer, software developer, programmer, computer science student, graduate student, jayesh lalwani">
+    <meta name="image" content="https://lalwanijayesh.com/images/me2.jpg">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/06eabcb97e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Jayesh Lalwani</title>
+</head>
+<body class="bg-light">
+<header class="sticky-top bg-light mt-3 mb-2 d-flex flex-row justify-content-between">
+    <div class="h5 fw-normal mx-5 mt-3 mb-1">
+        <a id="logo" class="text-dark text-decoration-none" href="#">
+            Jayesh<br/>Lalwani
+        </a>
+        <hr id="logo-underline"/>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light justify-content-end bg-light h5 mx-3 mt-2 mb-4">
+        <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <div class="navbar-nav text-end">
+                <a class="nav-link active mx-3" href="#">Home</a>
+                <a class="nav-link active mx-3" href="#about">About</a>
+                <a class="nav-link active mx-3" href="#projects">Projects</a>
+                <a class="nav-link active mx-3" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container">
+    <div class="row py-5">
+        <div id="home" class="col-9 col-sm-8 col-lg-6 offset-1">
+            <h1>Hi,<br/>I'm Jayesh,<br/>software engineer.</h1>
+            <p class="lead">
+                I enjoy turning complex problems into simple, modular code components.
+                Currently pursuing MS in Computer Science at Northeastern University.
+            </p>
+            <div>
+                <a role="button" class="btn btn-outline-dark" href="#projects">My projects</a>
+                <a role="button" class="btn btn-outline-dark" href="#about">More about me</a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-center py-5">
+        <div class="mouse">
+            <div class="scroller"></div>
+        </div>
+        <div class="fs-5 p-2">scroll to discover</div>
+    </div>
+    <div id="about" class="py-5">
+        <h1 class="text-center pb-4">{ me }</h1>
+        <div class="d-flex flex-column flex-lg-row">
+            <div class="mt-5 d-flex flex-column align-items-center">
+                <div class="d-flex flex-row">
+                    <img class="border border-2 border-dark rounded-3 shadow"
+                         id="img1" src="images/me1.jpg" alt="Jayesh at Northeastern"
+                         width="200" height="200">
+                    <img class="border border-2 border-dark rounded-3 shadow"
+                         id="img2" src="images/me2.jpg" alt="Jayesh at work"
+                         width="200" height="200">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img class="border border-2 border-dark rounded-3 shadow"
+                         id="img3" src="images/me3.jpg" alt="Jayesh at work"
+                         width="200" height="200">
+                </div>
+            </div>
+            <div class="mx-4">
+                <p style="text-align: justify" class="mb-4">
+                    I finished my undergraduate studies in Computer Engineering from
+                    <a class="text-body on-hover-underline" target="_blank"
+                       href="https://www.ganpatuniversity.ac.in">Ganpat University</a>
+                    in 2016. Since then, I have been working as a software engineer,
+                    contributing to the design and development of Business applications
+                    and Enterprise products. My professional career began with
+                    <a class="text-body on-hover-underline" target="_blank"
+                       href="https://www.tcs.com">Tata Consultancy Services</a>,
+                    where I worked as a full stack developer. Later in 2019, I joined
+                    <a class="text-body on-hover-underline" target="_blank"
+                       href="https://www.qmetry.com">QMetry</a>, as a member of the
+                    backend development team for analytics and reporting.
+                </p>
+                <p style="text-align: justify" class="mb-4">
+                    In late 2020, I moved to the United States for pursuing Master's
+                    in Computer Science from
+                    <a class="text-body on-hover-underline" target="_blank"
+                       href="https://www.northeastern.edu">Northeastern University</a>.
+                    My graduate studies are focussed on learning programming design patterns
+                    and techniques for large scale parallel data processing.
+                </p>
+                <p style="text-align: justify" class="mb-4">
+                    When I'm not coding, you will either find me in the kitchen trying to cook
+                    something or biking around the city observing life. Also, I love taking
+                    photos, some of which you can find
+                    <a class="text-body text-decoration-none" target="_blank"
+                       href="https://www.instagram.com/lalwanijayesh">here</a>.
+                </p>
+                <p style="text-align: justify" class="mb-4">
+                    I recently completed my summer internship in data engineering at Amazon. I am
+                    now back to school and will be looking to full-time roles starting in late 2022.
+                </p>
+                <a role="button" class="mb-4 btn btn-outline-dark" target="_blank"
+                   href="https://drive.google.com/file/d/1q_0yPIBBBeEThx_758bU7hJEPxK0t30_/view">
+                    Download resume
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="py-5">
+        <div class="display-1 m-5">
+            Projects
+        </div>
+        <div class="d-flex flex-column flex-md-row">
+            <div class="d-flex flex-column">
+                <div class="card m-2">
+                    <img src="images/lungs_plant.jpeg" class="card-img-top" alt="Lung Cancer Detection">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a role="button" class="text-body text-decoration-none stretched-link"
+                               data-bs-toggle="modal" data-bs-target="#LungCancerDetection">Lung Cancer Detection</a>
+                        </h5>
+                        <p class="card-text">
+                            The project involves classification of lung CT scans to identify whether the 
+                            cases are Benign, Malignant, or Normal. We do this using a 
+                            Convolutional Neural Network.
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Python&emsp;
+                        HTML&emsp;
+                        CSS&emsp;
+                        Bootstrap&emsp;
+                        JavaScript&emsp;
+                    </div>
+                    <div class="modal fade" id="Lung Cancer Detection" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Lung Cancer Detection</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        The project involves classification of lung CT scans to identify whether the 
+                                        cases are Benign, Malignant, or Normal. We do this using a 
+                                        Convolutional Neural Network.
+                                    </p>
+                                    <h6>Technologies:</h6>
+                                    Python, HTML, CSS, Bootstrap, JavaScript, MySQL
+                                </div>
+                                <div class="modal-footer">
+                                    <a role="button" class="btn btn-primary" target="_blank"
+                                       href="https://github.com/aryahonraopatil/Lung-Cancer-Detection">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <img src="images/token.jpg" class="card-img-top"
+                         alt="Token Management System">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a role="button" class="text-body text-decoration-none stretched-link"
+                               data-bs-toggle="modal" data-bs-target="#TokenManagementSystem">Token Management System</a>
+                        </h5>
+                        <p class="card-text">
+                            The token management system involves a single server and multiple clients, 
+                            where the server handles the token and the clients send RPC calls to the server, 
+                            each of them corresponding to a different operation to be performed. 
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        GO&emsp;
+                    </div>
+                    <div class="modal fade" id="Token Management System" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Token Management System</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        The token management system involves a single server and multiple clients, 
+                                        where the server handles the token and the clients send RPC calls to the server, 
+                                        each of them corresponding to a different operation to be performed. 
+                                    </p>
+                                    <h6>Technologies:</h6>
+                                    GO
+                                </div>
+                                <div class="modal-footer">
+                                    <a role="button" class="btn btn-primary" target="_blank"
+                                       href="https://github.com/aryahonraopatil/TokenManagementSystem">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="card m-2">
+                    <img src="images/mazes.jpg" class="card-img-top" alt="Emotion Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a role="button" class="text-body text-decoration-none stretched-link"
+                               data-bs-toggle="modal" data-bs-target="#EmotionAnalysis">Emotion Analysis</a>
+                        </h5>
+                        <p class="card-text">
+                            Generate random mazes based on configurable parameters like size of the maze,
+                            number of walls as well as allowing to choose from different generation algorithms.
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        Java
+                    </div>
+                    <div class="modal fade" id="EmotionAnalysis" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Emotion Analysis</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Generate random mazes based on configurable parameters like size of the maze,
+                                        number of walls as well as allowing to choose from different generation
+                                        algorithms.
+                                    </p>
+                                    <h6>Technologies:</h6>
+                                    Python
+                                </div>
+                                <div class="modal-footer">
+                                    <a role="button" class="btn btn-secondary" target="_blank"
+                                       href="https://github.com/aryahonraopatil/eeg-emotion-analysis">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <img src="images/whiteboard.jpg" class="card-img-top" alt="Whiteboard">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a role="button" class="text-body text-decoration-none stretched-link"
+                               data-bs-toggle="modal" data-bs-target="#Whiteboard">Whiteboard</a>
+                        </h5>
+                        <p class="card-text">
+                            Whiteboard is a course management system where faculty can author courses and
+                            students can enroll in classes. Course content is sub-divided into modules,
+                            topics and widgets. Students can enroll for courses, view course material and
+                            take quizzes.
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted small">
+                        HTML&emsp;
+                        CSS&emsp;
+                        Bootstrap&emsp;
+                        React&emsp;
+                        Java&emsp;
+                        Spring&emsp;
+                        MySQL&emsp;
+                        MongoDB
+                    </div>
+                    <div class="modal fade" id="Whiteboard" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Whiteboard</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        The idea of the project is to analyze the effect of location on the network between 
+                                        people from all over the world by targeting the travel history of social media users 
+                                        and their connections. The users would be able to see how the network changes over 
+                                        time, travel patterns of people, possible changes in popularity over time and many more.
+                                    </p>
+                                    <h6>Technologies:</h6>
+                                    Python, R, Processing, Java
+                                </div>
+                                <div class="modal-footer">
+                                    <a role="button" class="btn btn-primary" target="_blank"
+                                       href="https://github.com/aryahonraopatil/Social-Network-Visualization">Launch Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="py-5">
+        <div class="pt-4 d-flex flex-column align-items-center">
+            <h1 class="p-2">Contact</h1>
+            <form class="w-75" action="https://formspree.io/f/mzbkopzr" method="POST">
+                <input type="text" name="_gotcha" class="d-none">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name"
+                           placeholder="Full Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="emailAddress" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="emailAddress" name="_replyto"
+                           placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message"
+                              placeholder="Hi Arya!" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Send</button>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="d-flex flex-column align-items-center">
+        <div class="icon-set">
+            <a class="link-gray text-decoration-none p-2" target="_blank"
+               href="https://github.com/aryahonraopatil">
+                <i class="fab fa-2x fa-github"></i>
+            </a>
+            <a class="link-gray text-decoration-none p-2" target="_blank"
+               href="https://www.linkedin.com/in/arya-honraopatil/">
+                <i class="fab fa-2x fa-linkedin-in"></i>
+            </a>
+            <a class="link-gray text-decoration-none p-2" target="_blank"
+               href="https://medium.com/@aryahonraopatil">
+                <i class="fab fa-2x fa-medium"></i>
+            </a>
+        </div>
+        <div class="text-muted fs-6 p-2">
+            &copy; 2023 Arya Honraopatil
+        </div>
+    </div>
+</footer>
 </body>
-
 </html>
