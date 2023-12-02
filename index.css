@@ -1,0 +1,70 @@
+#logo {
+    font-family: "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: normal;
+}
+#logo-underline {
+    width: 40%;
+    height: 2px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.mouse {
+    display: flex;
+    justify-content: center;
+    width: 34px;
+    height: 55px;
+    border: 1px solid #333;
+    border-radius: 25px;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    margin: 12px 0px;
+    background: #333;
+    animation: scroll;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+@keyframes scroll {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+}
+a.on-hover-underline {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+#img1 {
+    position: relative;
+    z-index: 3;
+    transform: rotate(-3deg);
+}
+#img2 {
+    position: relative;
+    z-index: 2;
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(3deg);
+}
+#img3 {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+    transform: rotate(-6deg);
+}
+.link-gray {
+    color: #333;
+}
+.link-gray:hover {
+    color: #333 !important;
+}
+.icon-set:hover a {
+    color: darkgray;
+}
