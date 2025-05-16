@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-presented-my-work-at-mid-atlantic-student-colloquium-on-speech-language-and-learning-masc-sll-2025",
+          title: 'Presented my work at Mid-Atlantic Student Colloquium on Speech, Language and Learning (MASC-SLL...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
