@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-won-the-best-poster-award-for-the-emotional-storytelling-work-presented-at-2025-csee-research-day-held-at-umbc",
+          title: 'Won the Best Poster Award for the Emotional Storytelling work presented at 2025...',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
