@@ -440,14 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-won-the-best-poster-award-for-the-emotional-storytelling-work-presented-at-2025-csee-research-day-held-at-umbc",
-          title: 'Won the Best Poster Award for the Emotional Storytelling work presented at 2025...',
-          description: "",
-          section: "News",},{id: "news-started-my-ph-d-at-lara-lab-working-with-my-advisor-dr-lara-j-martin",
+            },},{id: "news-started-my-ph-d-at-lara-lab-working-with-my-advisor-dr-lara-j-martin",
           title: 'Started my Ph.D. at LARA Lab working with my advisor Dr. Lara J....',
           description: "",
           section: "News",},{id: "news-presented-the-emotional-storytelling-work-at-mid-atlantic-student-colloquium-on-speech-language-and-learning-masc-sll-2025-held-at-the-pennsylvania-state-university",
           title: 'Presented the Emotional Storytelling work at Mid-Atlantic Student Colloquium on Speech, Language and...',
+          description: "",
+          section: "News",},{id: "news-won-the-best-poster-award-for-the-emotional-storytelling-work-presented-at-2025-csee-research-day-held-at-umbc",
+          title: 'Won the Best Poster Award for the Emotional Storytelling work presented at 2025...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
