@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
+        },{id: "nav-teaching-experiences",
+          title: "Teaching Experiences",
           description: "This page highlights my teaching experiences.",
           section: "Navigation",
           handler: () => {
@@ -406,6 +406,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-won-the-best-poster-award-for-the-emotional-storytelling-work-presented-at-2025-csee-research-day-held-at-umbc",
           title: 'Won the Best Poster Award for the Emotional Storytelling work presented at 2025...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-does-reasoning-help-llm-agents-play-dungeons-and-dragons-a-prompt-engineering-experiment-was-accepted-to-the-wordplay-workshop-at-emnlp-2025",
+          title: 'Our paper titled, “Does Reasoning Help LLM Agents Play Dungeons and Dragons? A...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
