@@ -27,9 +27,9 @@ I am a second year Ph.D. student at <a href='https://laramartin.net/lab/'>LARA L
 
 I’m currently working on expressive storytelling and Dungeons & Dragons AI. My research interests are:
 
-- Interactive Narrative and Computational Storytelling
+- Interactive Narrative and Tabletop Roleplaying Agents
 - Affective Computing and Emotion-Aware AI
-- Human-AI Interaction and Collaboration
+- Human-Centered Artificial Intelligence
 
 My research lies at the intersection of interactive narrative and computational storytelling, where I explore how AI systems can generate, adapt, and respond to dynamic story worlds in collaboration with users. I am particularly interested in affective computing and developing emotion-aware AI that can recognize, interpret, and simulate emotional context to enhance narrative engagement and user experience. I also focus on human-AI interaction and collaboration, investigating how AI can act as a creative or supportive partner in storytelling and decision-making environments. By combining emotional intelligence with narrative reasoning, my work aims to design systems that foster meaningful, adaptive, and context-aware human-AI interactions.
 
