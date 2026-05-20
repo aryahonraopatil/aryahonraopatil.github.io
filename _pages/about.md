@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am a computational storytelling researcher building emotion-aware AI to help foster meaningful, collaborative partnerships between humans and machines.
+subtitle: *I am a computational storytelling researcher designing emotion-aware AI to help foster meaningful, collaborative partnerships between humans and machines.*
 
 profile:
   align: right
