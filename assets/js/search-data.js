@@ -21,7 +21,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/Arya_Honraopatil_CV.pdf";
+            window.location.href = "/assets/pdf/AryaHonraopatilCV.pdf";
           },
         },{id: "post-a-post-with-plotly-js",
         
