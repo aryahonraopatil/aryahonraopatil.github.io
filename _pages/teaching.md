@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching Experiences
-description: This page highlights my teaching experiences.
+description:
 nav: true
 nav_order: 3
 ---
@@ -26,4 +26,4 @@ Fall 2023, Spring 2024 - Discrete Structures (Undergraduate Computer Science int
 Fall 2020 to Fall 2022 - Mathematics, Science, and Introductory Robotics.
 
 **Faculty Intern**, Spectrum Education, Pune, India<br>
-Fall 2018 to Spring 2020 (until March 2020) - Mathematics (High School Students).
+Fall 2018 to Spring 2020 (until March 2020) - Mathematics (High School).
