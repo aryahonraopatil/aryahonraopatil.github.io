@@ -24,7 +24,7 @@ latest_posts:
 ---
 <div class="mt-3"></div> 
 
-I am a second year Ph.D. student at <a href='https://laramartin.net/lab/'>LARA Lab</a> working with <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
+I am a third year Ph.D. student at <a href='https://laramartin.net/lab/'>LARA Lab</a> working with <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
 
 I’m currently working on expressive storytelling and Dungeons & Dragons AI. My research interests are:
 
@@ -32,6 +32,6 @@ I’m currently working on expressive storytelling and Dungeons & Dragons AI. My
 - Affective Computing and Emotion-Aware AI
 - Human-Centered Artificial Intelligence
 
-I explore how AI systems can generate, adapt, and respond to dynamic story worlds in collaboration with users. I am particularly interested in affective computing and developing emotion-aware AI that can recognize, interpret, and simulate emotional context to enhance narrative engagement and user experience. I also focus on human-AI interaction and collaboration, investigating how AI can act as a creative partner in storytelling and decision-making environments. By combining emotional intelligence with narrative reasoning, my work aims to design systems that foster meaningful, adaptive, and context-aware human-AI interactions.
+I explore how AI systems can generate, adapt, and respond to dynamic story worlds in collaboration with users. I am particularly interested in affective computing and developing emotion-aware AI that can recognize, interpret, and simulate emotional context to enhance narrative engagement and user experience. I also focus on human-AI interaction and collaboration, investigating how AI can act as a creative partner in storytelling and decision-making environments.
 
 I also have a Master's degree in Computer Science and a Bachelor's degree in Computer Engineering. Previosuly, I have worked as a Software Engineer at Principal Global Services in Pune, India.
