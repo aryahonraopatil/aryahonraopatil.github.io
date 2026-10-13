@@ -1,13 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <em>I am a computational storytelling researcher designing emotion-aware AI to help foster meaningful, collaborative partnerships between humans and machines.</em>
 
 profile:
   align: right
-  image: prof_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic.jpg
+  image_alt: Headshot of Arya Honraopatil smiling, with long dark wavy hair, wearing a white and blue striped shirt
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <div class="profile-socials" style="text-align: center; font-size: 1.6rem;">
+      <a href="https://github.com/aryahonraopatil" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+      <a href="https://scholar.google.com/citations?user=FRtDDB4AAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>&nbsp;
+      <a href="https://x.com/AryaHonraopatil" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>&nbsp;
+      <a href="/assets/pdf/AryaHonraopatilCV.pdf" target="_blank" rel="noopener noreferrer" title="CV (PDF, opens in new tab)" aria-label="CV (PDF, opens in new tab)"><i class="ai ai-cv" aria-hidden="true"></i></a>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

@@ -27,8 +27,9 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
@@ -40,10 +41,40 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Email (stored reversed so scrapers can't read it; revealed on click) -->
+    <p class="scrambled-email" style="margin-top: 1.5rem;">
+      <strong>Email:</strong>
+      <button
+        type="button"
+        id="email-reveal"
+        data-u="oarnohayra"
+        data-d="ude.cbmu"
+        aria-label="Reveal email address"
+        title="Click to unscramble"
+        style="background: none; border: none; padding: 0; color: var(--global-theme-color); cursor: pointer; font-family: monospace;"
+      >
+        ude.cbmu&#64;oarnohayra
+      </button>
+    </p>
+    <script>
+      document.getElementById('email-reveal').addEventListener('click', function () {
+        var reverse = function (s) {
+          return s.split('').reverse().join('');
+        };
+        var email = reverse(this.dataset.u) + '@' + reverse(this.dataset.d);
+        var link = document.createElement('a');
+        link.href = 'mailto:' + email;
+        link.textContent = email;
+        this.parentNode.setAttribute('aria-live', 'polite');
+        this.replaceWith(link);
+        link.focus();
+      });
+    </script>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 style="margin-top: 3rem;">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
