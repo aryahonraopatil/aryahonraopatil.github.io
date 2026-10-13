@@ -17,12 +17,12 @@ profile:
       <a href="/assets/pdf/AryaHonraopatilCV.pdf" target="_blank" rel="noopener noreferrer" title="CV (PDF, opens in new tab)" aria-label="CV (PDF, opens in new tab)"><i class="ai ai-cv" aria-hidden="true"></i></a>
     </div>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: true # fixed-height box (~4 items) with a vertical scroll bar if there are more than 4 news items
   limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
@@ -32,14 +32,12 @@ latest_posts:
 ---
 <div class="mt-3"></div> 
 
-I am a third year Ph.D. student at <a href='https://laramartin.net/lab/'>LARA Lab</a> working with <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
+I am a third year Ph.D. student at University of Maryland, Baltimore County advised by <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
 
-I’m currently working on expressive storytelling and Dungeons & Dragons AI. My research interests are:
+My research focuses on how language models can stay coherent, emotionally aware, and cooperative over long, open-ended interactions. My goal is to build AI agents that help foster meaningful, collaborative partnerships between humans and machines.
 
-- Interactive Narrative and Tabletop Roleplaying Agents
-- Affective Computing and Emotion-Aware AI
-- Human-Centered Artificial Intelligence
+**Long-horizon coherence:** Language models forget rules, hallucinate and have trouble tracking events in long interactions. I’m interested in methods that help language models have a consistent memory across long, evolving interactions.
+**Emotional awareness:** Understanding what someone says is different from understanding how they feel about it. I work on helping LLMs overcome this emotional blindness by recognizing and responding with emotional context. 
+**Cooperative multi-agent systems:** Working on shared goals in cooperation with humans requires understanding the intent of the partner along with reasoning. I use multi-agent frameworks and reinforcement learning to study how AI agents can coordinate with each other and with humans, acting as creative partners.
 
-I explore how AI systems can generate, adapt, and respond to dynamic story worlds in collaboration with users. I am particularly interested in affective computing and developing emotion-aware AI that can recognize, interpret, and simulate emotional context to enhance narrative engagement and user experience. I also focus on human-AI interaction and collaboration, investigating how AI can act as a creative partner in storytelling and decision-making environments.
-
-I also have a Master's degree in Computer Science and a Bachelor's degree in Computer Engineering. Previosuly, I have worked as a Software Engineer at Principal Global Services in Pune, India.
+I am broadly interested in research that helps people use AI as a partner in achieving their goals. If you are interested in similar problems or would like to talk about coffee, cats, or books, feel free to reach out!
