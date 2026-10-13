@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: <em>I am a computational storytelling researcher designing emotion-aware AI to help foster meaningful, collaborative partnerships between humans and machines.</em>
 
 profile:
   align: right
@@ -32,12 +31,16 @@ latest_posts:
 ---
 <div class="mt-3"></div> 
 
-I am a third year Ph.D. student at University of Maryland, Baltimore County advised by <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
+Hi! I am a third year Ph.D. student at University of Maryland, Baltimore County advised by <a href='https://laramartin.net'>Dr. Lara J. Martin</a>.
 
 My research focuses on how language models can stay coherent, emotionally aware, and cooperative over long, open-ended interactions. My goal is to build AI agents that help foster meaningful, collaborative partnerships between humans and machines.
 
 **Long-horizon coherence:** Language models forget rules, hallucinate and have trouble tracking events in long interactions. I’m interested in methods that help language models have a consistent memory across long, evolving interactions.
-**Emotional awareness:** Understanding what someone says is different from understanding how they feel about it. I work on helping LLMs overcome this emotional blindness by recognizing and responding with emotional context. 
+{: .mb-2}
+
+**Emotional awareness:** Understanding what someone says is different from understanding how they feel about it. I work on helping LLMs overcome this emotional blindness by recognizing and responding with emotional context.
+{: .mb-2}
+
 **Cooperative multi-agent systems:** Working on shared goals in cooperation with humans requires understanding the intent of the partner along with reasoning. I use multi-agent frameworks and reinforcement learning to study how AI agents can coordinate with each other and with humans, acting as creative partners.
 
 I am broadly interested in research that helps people use AI as a partner in achieving their goals. If you are interested in similar problems or would like to talk about coffee, cats, or books, feel free to reach out!
