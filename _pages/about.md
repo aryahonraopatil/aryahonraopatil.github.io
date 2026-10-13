@@ -41,6 +41,6 @@ My research focuses on how language models can stay coherent, emotionally aware,
 **Emotional awareness:** Understanding what someone says is different from understanding how they feel about it. I work on helping LLMs overcome this emotional blindness by recognizing and responding with emotional context.
 {: .mb-2}
 
-**Cooperative multi-agent systems:** Working on shared goals in cooperation with humans requires understanding the intent of the partner along with reasoning. I use multi-agent frameworks and reinforcement learning to study how AI agents can coordinate with each other and with humans, acting as creative partners.
+**Cooperative multi-agent systems:** Working toward shared goals with humans requires understanding a partner’s intent and reasoning about how to act on it. I design multi-agent frameworks using reinforcement learning so that AI agents can coordinate with humans and act as creative partners.
 
-I am broadly interested in research that helps people use AI as a partner in achieving their goals. If you are interested in similar problems or would like to talk about coffee, cats, or books, feel free to reach out!
+I am broadly interested in research that helps people use AI in achieving their goals. If you are interested in similar problems or would like to talk about coffee, cats, or books, feel free to reach out!
