@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_alt: Headshot of Arya Honraopatil smiling, with long dark wavy hair, wearing a white and blue striped shirt
+  image_alt: Headshot of Arya Honraopatil.
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="profile-socials" style="text-align: center; font-size: 1.6rem;">

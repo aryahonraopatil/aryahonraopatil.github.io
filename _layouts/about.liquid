@@ -41,33 +41,28 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Email (stored reversed so scrapers can't read it; revealed on click) -->
+    <!-- Email (stored reversed so scrapers can't read it; shown as plain text when unscrambled) -->
     <p class="scrambled-email" style="margin-top: 1.5rem;">
       <strong>Email:</strong>
+      <span id="email-text" data-u="oarnohayra" data-d="ude.cbmu" aria-live="polite" tabindex="-1" style="font-family: monospace;">ude.cbmu&#64;oarnohayra</span>
       <button
         type="button"
-        id="email-reveal"
-        data-u="oarnohayra"
-        data-d="ude.cbmu"
-        aria-label="Reveal email address"
-        title="Click to unscramble"
-        style="background: none; border: none; padding: 0; color: var(--global-theme-color); cursor: pointer; font-family: monospace;"
+        id="email-unscramble"
+        aria-controls="email-text"
+        style="margin-left: 0.5rem; padding: 0.1rem 0.6rem; font-size: 0.85rem; background: none; border: 1px solid var(--global-theme-color); border-radius: 4px; color: var(--global-theme-color); cursor: pointer;"
       >
-        ude.cbmu&#64;oarnohayra
+        unscramble
       </button>
     </p>
     <script>
-      document.getElementById('email-reveal').addEventListener('click', function () {
+      document.getElementById('email-unscramble').addEventListener('click', function () {
         var reverse = function (s) {
           return s.split('').reverse().join('');
         };
-        var email = reverse(this.dataset.u) + '@' + reverse(this.dataset.d);
-        var link = document.createElement('a');
-        link.href = 'mailto:' + email;
-        link.textContent = email;
-        this.parentNode.setAttribute('aria-live', 'polite');
-        this.replaceWith(link);
-        link.focus();
+        var text = document.getElementById('email-text');
+        text.textContent = reverse(text.dataset.u) + '@' + reverse(text.dataset.d);
+        this.remove();
+        text.focus();
       });
     </script>
 

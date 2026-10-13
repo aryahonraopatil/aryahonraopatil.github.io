@@ -21,10 +21,16 @@ nav_order: 3
 **Orientation Advisor**<br>
 **Ongoing since Summer 2023** - *Academic guidance on coursework selection and registration process*
 
+---
+{: .my-4}
+
 ### Bhumi (non-profit), Pune, India
 
 **Robotics Teacher**<br>
 **Fall 2020 to Fall 2022** - *Mathematics, Science, and Introductory Robotics*
+
+---
+{: .my-4}
 
 ### Spectrum Education, Pune, India
 

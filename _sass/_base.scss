@@ -1425,3 +1425,9 @@ figure.cover {
   font-weight: 400;
   font-style: normal;
 }
+
+// Visible focus ring for the back-to-top button (the library sets outline: 0)
+#back-to-top:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
