@@ -55,6 +55,30 @@ layout: default
       </button>
     </p>
     <script>
+      (function () {
+        // On every page load, shuffle the letters of the address into a new random order ('@' and '.' stay in place).
+        var reverse = function (s) {
+          return s.split('').reverse().join('');
+        };
+        var text = document.getElementById('email-text');
+        var email = reverse(text.dataset.u) + '@' + reverse(text.dataset.d);
+        var shuffle = function (s) {
+          var letters = s.replace(/[@.]/g, '').split('');
+          for (var i = letters.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = letters[i];
+            letters[i] = letters[j];
+            letters[j] = tmp;
+          }
+          return s.replace(/[^@.]/g, function () {
+            return letters.pop();
+          });
+        };
+        var scrambled = shuffle(email);
+        while (scrambled === email) scrambled = shuffle(email);
+        text.textContent = scrambled;
+      })();
+
       document.getElementById('email-unscramble').addEventListener('click', function () {
         var reverse = function (s) {
           return s.split('').reverse().join('');
