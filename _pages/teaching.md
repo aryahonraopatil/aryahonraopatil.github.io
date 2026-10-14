@@ -19,14 +19,14 @@ nav_order: 3
 Fall 2023, Spring 2024 - *Discrete Structures (Undergraduate Computer Science introductory class)*
 
 **Orientation Advisor**<br>
-Ongoing since Summer 2023 - *Academic guidance on coursework selection and registration process*
+Ongoing since Summer 2023 - *Academic guidance to first-year students on coursework selection and registration process*
 
 ---
 {: .my-4}
 
 ### Bhumi (non-profit), Pune, India
 
-**Robotics Instructor**<br>
+**Instructor**<br>
 Fall 2020 to Summer 2022 - *Mathematics, Science, and Introductory Robotics*
 
 ---
